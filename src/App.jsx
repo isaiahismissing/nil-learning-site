@@ -38,7 +38,7 @@ function App() {
         <Route path="/audio001" element={<div><AudioPlayer media="/audiotestbeat.mp3" picture="/audio001image.jpg" logNumber="001" text="this used to be my old room, you can see some posters and the desktop PCs, a bit cluttered but cozy."/><BackButton /> <DecorLines/></div>}/>
         <Route path="/audio002" element={<div><AudioPlayer media="/audiotestbeat2.mp3" picture="/audio002image.JPG" logNumber="002" text="i felt cute in the park so i took a picture."/><BackButton /> <DecorLines/></div>}/>
         <Route path="/text001" element={<div><TextPlayer logNumber="001" text="&quot;war is over if you want it&quot; said john lennon, but what does it mean? well i think it means sometimes our own minds are the biggest obstacles."/><BackButton /> <DecorLines/></div>}/>
-        <Route path="/text002" element={<div><TextPlayer logNumber="002" text="null"/><BackButton /> <DecorLines/></div>}/>
+        <Route path="/text002" element={<div><TextPlayer logNumber="002" text="lovely weather isn't it?"/><BackButton /> <DecorLines/></div>}/>
         <Route path="/text003" element={<div><TextPlayer logNumber="003" text="null"/><BackButton /> <DecorLines/></div>}/>
         <Route path="/text004" element={<div><TextPlayer logNumber="004" text="null"/><BackButton /> <DecorLines/></div>}/>
       </Routes>
