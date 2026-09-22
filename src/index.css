@@ -1,0 +1,249 @@
+@import "tailwindcss";
+
+:root {
+ 
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  border: 50px solid #07070a;
+  min-height: 100vh;
+  background-image: url("..gif");
+  background-size: contain;
+}
+
+  background-color: #100F16;
+
+  body::before {
+  content: "";
+  position: fixed;
+  inset: 60px;             
+  border: 10px solid #07070a;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+.logo {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:aliceblue
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+.video-container {
+  position: fixed;
+  top: 56%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.videoplayer {
+  width: 717px;
+  height: 538px;
+  background: #000;
+  border: 1px solid #deb887;
+  border-radius: 0px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.videoplayer__video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.farewell-video-container {
+  position: fixed;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+}
+
+.farewell-videoplayer {
+  width: min(86vw, 850px);
+  height: min(76vh, 638px);
+  background: #000;
+  border: 1px solid #deb887;
+  overflow: hidden;
+}
+
+.video-text {
+  width: 300px;
+  font-family: "Courier New", Courier, monospace;
+  color:burlywood
+}
+
+.video-text h2 {
+  margin: 0 0 10px;
+}
+
+.video-text p {
+  margin: 0;
+}
+
+.text-player {
+  position: fixed;
+  top: 56%;
+  left: 17.8%;
+  transform: translateY(-50%);
+  width: min(65vw, 760px);
+  font-family: "Courier New", Courier, monospace;
+  color: burlywood;
+  text-align: left;
+}
+
+.text-player p {
+  margin: 0;
+  line-height: 1.6;
+  font-size:xx-large
+}
+
+.back-button {
+  position: fixed;
+  top: 18%;
+  left: 9%;
+}
+
+.about-image {
+  position: fixed;
+  top: 50%;
+  right: 16%;
+  width: min(34vw, 420px);
+  max-height: 64vh;
+  object-fit: contain;
+  transform: translateY(-50%);
+  border: 1px solid #deb887;
+}
+
+@media (max-width: 700px) {
+  .about-image {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: block;
+    width: min(80vw, 360px);
+    margin: 3rem auto 0;
+    transform: none;
+  }
+}
+
+.site-header {
+  position: fixed;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+  gap: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.site-header a {
+  color: #deb887;
+  text-decoration: none;
+}
+
+.site-header a:hover,
+.site-header a:focus-visible {
+  color: #f5f3f0;
+  text-decoration: underline;
+}
+
+.header-audio-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #deb887;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.header-audio-button:hover,
+.header-audio-button:focus-visible {
+  color: #f5f3f0;
+}
+
+.menu-text {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  color: #deb887;
+  font-size: 40px;
+}
+
+.menu-text2 {
+  position: fixed;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  color: burlywood;
+  font-size: 20px;
+  text-align: center;
+}
+
+.menu-text3 {
+  position: fixed;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  color: #f5f3f0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.autho {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  color: burlywood;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-text4 {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  color: #f5f3f0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.logcards {
+  color:#deb887;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.h1 {
+  font-size: 80px;
+}
+
+}
