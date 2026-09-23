@@ -1,4 +1,4 @@
-gitimport { useState } from 'react'
+import { useState } from 'react'
 
 function Farewell() {
   const [password, setPassword] = useState('')
