@@ -14,6 +14,21 @@ body {
   min-height: 100vh;
   background-image: url("..gif");
   background-size: contain;
+  cursor: none;
+}
+
+html,
+body,
+a,
+button,
+input,
+textarea,
+select,
+option,
+div,
+img,
+span {
+  cursor: none !important;
 }
 
   background-color: #100F16;

@@ -12,6 +12,7 @@ import { useState } from 'react';
 import { Log001Card, Log002Card, Log003Card, Log004Card, Log005Card, Log006Card, Log007Card, Log008Card, Log009Card, Log010Card, AudioLog001Card, AudioLog002Card, AudioLog003Card, AudioLog004Card, TextLog001Card, TextLog002Card, TextLog003Card, TextLog004Card } from "./comp/LogMenu";
 import About from './comp/About.jsx';
 import Farewell from './comp/Farewell.jsx';
+import MousePointer from './comp/MousePointer.jsx';
 
 function App() {
   const [log,setlog]= useState(false); 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <> <BrowserRouter>
+      <MousePointer />
       <Header />
       <Routes>
         <Route path="/" element={<div><StartLogo /><MenuText /></div>} />
