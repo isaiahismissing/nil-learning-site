@@ -6,7 +6,6 @@ function VideoPlayer({ media, logNumber, text }) {
           className="videoplayer__video"
           autoPlay
           loop
-          muted
           playsInline
           onContextMenu={(e) => e.preventDefault()}
         >

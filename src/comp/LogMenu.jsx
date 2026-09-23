@@ -150,6 +150,30 @@ function AudioLog002Card() {
   );
 }
 
+function AudioLog003Card() {
+  const media = "/thoughts_in_my_mind.mp3";
+  return (
+    <Link to="/audio003" state={{ media }} style={{ textDecoration: "none" }}>
+      <div style={{ position: "fixed", top: "75%", left: "15%", padding: "30px", border: "0px solid #deb887", borderRadius: "8px", cursor: "pointer" }}>
+        <RiVoiceRecognitionFill className="text-6xl text-[#deb887] justify-center" />
+        <h2 className="logcards">audio003</h2>
+      </div>
+    </Link>
+  );
+}
+
+function AudioLog004Card() {
+  const media = "/audiotestbeat.mp3";
+  return (
+    <Link to="/audio004" state={{ media }} style={{ textDecoration: "none" }}>
+      <div style={{ position: "fixed", top: "75%", left: "20%", padding: "30px", border: "0px solid #deb887", borderRadius: "8px", cursor: "pointer" }}>
+        <RiVoiceRecognitionFill className="text-6xl text-[#deb887] justify-center" />
+        <h2 className="logcards">audio004</h2>
+      </div>
+    </Link>
+  );
+}
+
 function TextLog001Card() {
   return (
     <Link to="/text001" style={{ textDecoration: "none" }}>
@@ -194,4 +218,4 @@ function TextLog004Card() {
   );
 }
 
-export { Log001Card, Log002Card, Log003Card, Log004Card, Log005Card, Log006Card, Log007Card, Log008Card, Log009Card, Log010Card, AudioLog001Card, AudioLog002Card, TextLog001Card, TextLog002Card, TextLog003Card, TextLog004Card };
+export { Log001Card, Log002Card, Log003Card, Log004Card, Log005Card, Log006Card, Log007Card, Log008Card, Log009Card, Log010Card, AudioLog001Card, AudioLog002Card, AudioLog003Card, AudioLog004Card, TextLog001Card, TextLog002Card, TextLog003Card, TextLog004Card };
