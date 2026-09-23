@@ -44,7 +44,7 @@ function App() {
         <Route path="/text001" element={<div><TextPlayer logNumber="001" text="&quot;war is over if you want it&quot; said john lennon, but what does it mean? well i think it means sometimes our own minds are the biggest obstacles."/><BackButton /> <DecorLines/></div>}/>
         <Route path="/text002" element={<div><TextPlayer logNumber="002" text="take all your chances while you can, you never know when they might come again."/><BackButton /> <DecorLines/></div>}/>
         <Route path="/text003" element={<div><TextPlayer logNumber="003" text="i felt there was somebody missing, maybe i just need to fall in love again."/><BackButton /> <DecorLines/></div>}/>
-        <Route path="/text004" element={<div><TextPlayer logNumber="004" text="null"/><BackButton /> <DecorLines/></div>}/>
+        <Route path="/text004" element={<div><TextPlayer logNumber="004" text="a few things here and there"/><BackButton /> <DecorLines/></div>}/>
       </Routes>
     </BrowserRouter>
     </>
